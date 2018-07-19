@@ -68,18 +68,45 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Graphics\144f9ecef2d2039b654f584ae79491c651ee4f57c6b3164eb0cf29f1e41ede0a.png" />
+    <Content Include="Graphics\brain-patterns.png" />
+    <Content Include="Graphics\clouds-from-above-background-tile.png" />
+    <Content Include="Graphics\floral-pattern-flourish-tiled-background-flower-rose-ornament-ornamental-texture-summer-bouquet-gentle-wallpaper-70920365.jpg" />
+    <Content Include="Graphics\placeholderheaderimage.png" />
+    <Content Include="Graphics\placeholderheaderimage2.png" />
+    <Content Include="Graphics\placeholderheaderimageSHORT.png" />
+    <Content Include="Graphics\tiledbackground-.jpg" />
+    <Content Include="Graphics\wildtextures-old-paper-texture--1.png" />
+    <Content Include="Graphics\wildtextures-old-paper-texture--2.png" />
+    <Content Include="Graphics\wildtextures-old-paper-texture--3.png" />
     <Content Include="HtmlPage1.html" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.Master.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.Master.designer.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Default.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

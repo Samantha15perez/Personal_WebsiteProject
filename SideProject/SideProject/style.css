@@ -17,7 +17,7 @@
 */
 
 body {
-    background: #e15 url(body_bg.gif) fixed;
+    background: #e15 url('Graphics/144f9ecef2d2039b654f584ae79491c651ee4f57c6b3164eb0cf29f1e41ede0a.png') fixed;
     margin: 0;
     padding: 0;
 }
@@ -105,7 +105,7 @@ abbr {
 header h1 {
     width: 100%;
     height: 100%;
-    background: transparent url(top.jpg) no-repeat;
+    background: transparent url('Graphics/placeholderheaderimageSHORT.png') no-repeat;
 }
 
 .summary p:last-child {
@@ -152,7 +152,7 @@ header h1, h3 {
 
 .page-wrapper {
     margin: 0 6%;
-    background: #f4f2ea url(container_bg.jpg);
+    background: #f4f2ea url('Graphics/wildtextures-old-paper-texture--1.png');
     border-left: solid 8px #000;
     border-right: solid 8px #000;
     border-bottom: solid 32px #000;
@@ -161,7 +161,7 @@ header h1, h3 {
 header {
     margin: 0;
     background: #000 url(top_bg.jpg);
-    height: 462px;
+    height: 275px;
 }
 
 footer {
@@ -178,6 +178,16 @@ footer {
     position: relative;
     margin-left: 230px;
     text-align: left;
+}
+.CornerIcon {
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 1%;
+    background-image: url('Graphics/floral-pattern-flourish-tiled-background-flower-rose-ornament-ornamental-texture-summer-bouquet-gentle-wallpaper-70920365.jpg');
+    top: 298px;
+    left: -102px;
+    height: 153px;
+    width: 150px;
 }
 
 .supporting {
